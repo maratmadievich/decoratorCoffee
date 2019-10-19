@@ -13,6 +13,9 @@
 		0457054C235B94D000611C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457054A235B94D000611C28 /* Main.storyboard */; };
 		0457054E235B94D400611C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0457054D235B94D400611C28 /* Assets.xcassets */; };
 		04570551235B94D400611C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457054F235B94D400611C28 /* LaunchScreen.storyboard */; };
+		0457055A235B950000611C28 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04570559235B950000611C28 /* Coffee.swift */; };
+		0457055C235B957000611C28 /* CoffeeDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457055B235B957000611C28 /* CoffeeDecorator.swift */; };
+		0457055E235B959B00611C28 /* SimpleCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457055D235B959B00611C28 /* SimpleCoffee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0457054D235B94D400611C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04570550235B94D400611C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04570552235B94D400611C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04570559235B950000611C28 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		0457055B235B957000611C28 /* CoffeeDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDecorator.swift; sourceTree = "<group>"; };
+		0457055D235B959B00611C28 /* SimpleCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCoffee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		04570543235B94D000611C28 /* Coffee Maker */ = {
 			isa = PBXGroup;
 			children = (
+				04570558235B94E300611C28 /* Models */,
 				04570544235B94D000611C28 /* AppDelegate.swift */,
 				04570546235B94D000611C28 /* SceneDelegate.swift */,
 				04570548235B94D000611C28 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				04570552235B94D400611C28 /* Info.plist */,
 			);
 			path = "Coffee Maker";
+			sourceTree = "<group>";
+		};
+		04570558235B94E300611C28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04570559235B950000611C28 /* Coffee.swift */,
+				0457055B235B957000611C28 /* CoffeeDecorator.swift */,
+				0457055D235B959B00611C28 /* SimpleCoffee.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +158,9 @@
 				04570549235B94D000611C28 /* ViewController.swift in Sources */,
 				04570545235B94D000611C28 /* AppDelegate.swift in Sources */,
 				04570547235B94D000611C28 /* SceneDelegate.swift in Sources */,
+				0457055C235B957000611C28 /* CoffeeDecorator.swift in Sources */,
+				0457055A235B950000611C28 /* Coffee.swift in Sources */,
+				0457055E235B959B00611C28 /* SimpleCoffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
