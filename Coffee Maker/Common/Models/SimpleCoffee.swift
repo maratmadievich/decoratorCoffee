@@ -10,6 +10,6 @@ import Foundation
 
 class SimpleCoffee: Coffee {
     var cost: Int {
-        return 150
+        return CoffeePrice.simpleCoffee.rawValue
     }
 }
